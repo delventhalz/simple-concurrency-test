@@ -1,0 +1,16 @@
+{
+  "name": "simple-concurrency-test",
+  "version": "0.0.0",
+  "description": "Just a simple test of how many fetch requests affects Node",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Zac Delventhal <delventhalz@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^3.3.0"
+  }
+}
